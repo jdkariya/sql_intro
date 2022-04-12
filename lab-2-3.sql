@@ -6,4 +6,6 @@
 -- | 2017 | Chicago White Sox |
 -- +------+-------------------+
 
-
+SELECT max(year), name
+FROM teams
+WHERE park = "U.S. Cellular Field";
